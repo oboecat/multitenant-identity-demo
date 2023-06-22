@@ -1,0 +1,13 @@
+http:
+  routers:
+    host-router:
+      rule: "HostRegexp(`{subdomain:[a-z-]+}.clerkexample.test`)"
+      service: demo-app
+    main-router:
+      rule: "Host(`clerkexample.test`)"
+      service: demo-app
+  services:
+    demo-app:
+      loadBalancer:
+        servers:
+        - url: "http://localhost:3000/"
