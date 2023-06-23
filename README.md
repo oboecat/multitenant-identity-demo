@@ -1,12 +1,12 @@
 # Clerk Multitenant Demo
 
-This application demonstrates a multitenant property management application using Clerk. 
+This sample demonstrates a multitenant property management application using Clerk. 
 
 ## Demo
 This demo is available live! 
 
 Click one of the links below to explore:
-* [Property Manager Admin Portal](https://clerkexample.com)
+* [Property Manager Admin Portal](https://clerkexample.com/admin/residents)
     * username: `admin@acme.test` password: `clerkpassword123`
 * [Resident Portal - Acme Communities](https://acme-communities.clerkexample.com/resident)
 * [Owner Portal - Acme Communities](https://acme-communities.clerkexample.com/owner)
@@ -101,11 +101,13 @@ By default, the application is configured to use the following domains:
 After you have configured the custom domain and installed Traefik, start Traefik and run the app from the demo app directory:
 ```
 traefik
+npm install
 npm run start
 ```
 
 Then run the API from the API directory:
 ```
+npm install
 npm run start
 ```
 
@@ -113,3 +115,6 @@ npm run start
 To deploy this sample to Vercel, deploy the SPA as a **create-react-app** project and the API as a **serverless function**.
 
 Make sure to set up the subdomain for Acme-Communities as `acme-communities.<your_domain>`.
+
+## Navigating the application
+
