@@ -1,4 +1,4 @@
-# Capsule Property Manager Demo
+# Clerk Multitenant Demo
 
 This application demonstrates a multitenant property management application using Clerk. 
 
@@ -41,7 +41,6 @@ organization_membership.public_metadata.groups =
     "resident", 
     "owner"
 ]
-
 ```
 
 #### Property Managers
