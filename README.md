@@ -117,4 +117,7 @@ To deploy this sample to Vercel, deploy the SPA as a **create-react-app** projec
 Make sure to set up the subdomain for Acme-Communities as `acme-communities.<your_domain>`.
 
 ## Navigating the application
-
+Once you have the application running, you can access the different portals at these URLs:
+* Admin Portal: `<your_domain>/admin/residents`
+* Resident Portal - Acme Communities: `acme-communities.<your_domain>/resident`
+* Owner Portal - Acme Communities: `acme-communities.<your_domain>/owner`
